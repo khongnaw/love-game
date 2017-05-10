@@ -125,7 +125,7 @@ function addPlayerToGameroom(userObj, gameroomObj){
 function creategameroomObj(gameroom){
   obj = {	
   			name		 : gameroom,
-  			max_player	 : 2,
+  			max_player	 : 1000,
   			num_player	 : 0,
 		    highest_score: 0,
 		    players      : {"none": false},
